@@ -17,8 +17,21 @@ function intercale(numes, nomes, nomomes=[]){
     return intercale(numes, nomes, nomomes);
 }
 
+console.log(`${intercale}`)
+
 //3. A MODA de um vetor de números é o número m no vetor que é repetido com maior 
 //frequência. Se mais de um número for repetido com frequência máxima igual, não existirá
 // uma moda. Escreva uma função em C que aceite um vetor de números e retorne a moda ou
 // uma indicação de que a moda não existe.
+
+var Carls = [Carls, Farls, Marls, Karls, Varls, Carls, Harls, Jarls, Larls, Parls, Barls, Warls, Farls, Carls, Parls, Garls, Aarls, Carls, Farls, Warls, Narls, Marls, Larls, Oarls, Narls, Parls, Darls, Sarls, Carls, Narls, Barls, Tarls]
+
+function moda(Carls){
+    return ((Carls.sort((a, b) =>
+    (Carls.filter(v => v === a).lenght) - (Calrs.filter(v => v === b).lenght))
+    ).pop())
+}
+
+module.exports = moda
+console.log(`${moda}`)
 /* 2022-08-09 */
