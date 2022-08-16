@@ -9,3 +9,16 @@
 
     d - Somar todod os elementos do vetor que estejam endre dois índices fornecidos pelo úsuario.
 */
+
+// D
+function plus(nums, pos1, pos2){
+    result = 0
+    for(var i=pos1;i<=pos2; i++){
+        result += nums[i]
+    }
+}
+
+var nums = [1, 4, 6, 14 , 4, 64, 29, 30]
+
+//Posição = Índice
+plus(nums, pos1, pos2)
