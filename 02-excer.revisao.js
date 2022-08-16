@@ -23,3 +23,4 @@ var nums = [1, 4, 6, 14 , 4, 64, 29, 30]
 
 //Posição = Índice
 plus(nums, 1, 3)
+console.log(result)
