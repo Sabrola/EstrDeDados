@@ -34,7 +34,7 @@ console.log(nonomes)
 var numes = [Helena, Alice, Laura, Manuela, Sophia, Isabella, Luísa, Heloísa, Cecília, Maitê, Eloá, Elisa, Liz, Júlia, Luísa, Valentina, Maria ,Lívia, Antonella, Lorena, Ayla, Isis, Aurora, Maya, Clara]
 var nomes = [Miguel, Arthur, Théo, Heitor, Gael, Davi, Bernardo, Gabriel, Ravi, Noah, Samuel, Pedro, Benício, Benjamin, Matheus, Isaac, Anthony, Joaquim, Lucas, Lorenzo, Rafael, Nicolas, Henrique, Murilo, Lucca]
 
-console.log()
+intercale(numes, nomes)
 
 //3. A MODA de um vetor de números é o número m no vetor que é repetido com maior 
 //frequência. Se mais de um número for repetido com frequência máxima igual, não existirá
