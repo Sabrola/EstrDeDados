@@ -7,8 +7,31 @@
 
     c - Somar os elementos pares ou impares do vetor (essa função deve ser única).
 
-    d - Somar todod os elementos do vetor que estejam endre dois índices fornecidos pelo úsuario.
+    d - Somar todos os elementos do vetor que estejam endre dois índices fornecidos pelo úsuario.
 */
+
+// C
+function plusEven(num){
+    Evens = 0; Odds = 0;
+    for (let i = 0; i < 10; i++){
+        if(vetor[i] % 2 == 0) {
+        even[Evens] = vetor[i];
+        Evens++
+        }
+        else {
+        odd[Odds] = vetor[i];
+        Odds++
+        }
+}
+
+}
+
+var num = [1, 4, 6, 14 , 4, 64, 29, 30]
+
+//Posição = Índice
+plus(nums, 1, 3)
+console.log(result)
+
 
 // D
 function plus(nums, pos1, pos2){
