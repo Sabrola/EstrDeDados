@@ -11,6 +11,16 @@
 */
 
 // C
+function plusEOdd(vet, cod) {
+    var plus = 0
+    if(vetor[i] % 2 == 0) {
+        plus += vet[i]
+    }
+    else {
+        odd[Odds] = vetor[i];
+        Odds++
+    }
+}
 function plusEven(num){
     Evens = 0; Odds = 0;
     for (let i = 0; i < 10; i++){
