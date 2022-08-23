@@ -22,11 +22,13 @@ function plusEven(num){
         odd[Odds] = vetor[i];
         Odds++
         }
-}
+    }
+    return num
 
 }
 
 var num = [1, 4, 6, 14 , 4, 64, 29, 30]
+console.log({num})
 
 //Posição = Índice
 plus(nums, 1, 3)
@@ -46,4 +48,32 @@ var nums = [1, 4, 6, 14 , 4, 64, 29, 30]
 
 //Posição = Índice
 plus(nums, 1, 3)
+console.log({result})
+
+// B
+var ananas = [1, 4, 6, 14 , 4, 64, 29, 30]
+
+function delet(ananas){
+    
+}
+
+/*function add(vet, qtd) {
+    for(var i=0; i<qtd; i++){
+        i = 1
+
+    }
+}*/
+var p1 = 1
+var p2 = 3
+
+result = plus(vet, p1, p2)
 console.log(result)
+
+if (vetor.lenght+qtd < 50){
+    add(vet, qtd)
+}
+else{
+    console.log('Quantidade ultrapsa 50 elementos.')
+}
+
+console.log({vet})
