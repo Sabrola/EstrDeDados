@@ -15,7 +15,16 @@ function main (){
             break
             case 2: alert(vetor)
             break
-            case 3: y(vetor)
+            case 3: 
+            let cod = prompt(`Deseja remover por indice ou valor?`)
+            if (cod === "i"){
+                let indice = Number(prompt(`Digite o indice que deseja remover:`))
+                removeEventListener(vetor, indice)
+                alert(vetor)
+            }
+            else {
+                
+            }
             break
             case 4: 
                 let type = prompt(`Digite par ou impar:`)
