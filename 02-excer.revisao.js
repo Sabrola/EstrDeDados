@@ -17,8 +17,7 @@ function plusEOdd(vet, cod) {
         plus += vet[i]
     }
     else {
-        odd[Odds] = vetor[i];
-        Odds++
+        alert(`Esse número é impar!`)
     }
 }
 function plusEven(num){
@@ -63,8 +62,11 @@ console.log({result})
 // B
 var ananas = [1, 4, 6, 14 , 4, 64, 29, 30]
 
-function delet(ananas){
-    
+function delet(vet, indice){
+    for(var i=indice+1; i < vet.lenght; i++){
+        vet[i-1] = vet[i]
+    }
+    vet.lenght = vet.lenght - 1
 }
 
 /*function add(vet, qtd) {
