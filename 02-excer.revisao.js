@@ -89,3 +89,10 @@ else{
 }
 
 console.log({vet})
+
+function find(vet, valor){
+    for(var i=0; i < vet.lenght; i++){
+        if(vet[i] === valor)
+        return i
+    }
+}
