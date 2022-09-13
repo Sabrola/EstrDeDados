@@ -42,3 +42,26 @@ function potent(base, exp) {
 
 var restule = potent(5, 4);
 console.log(restule)
+
+//////////////////////////////////////////////////////////////////////////////
+
+function binary(vet, ini, fim, x){
+    var middle
+
+    if (ini > fim) {
+        return -1
+    } else {
+        middle = Math.floor(ini + end) /2
+        
+        if (vet[middle] == x) {
+            return middle
+        } else if (x < vet[middle]) {
+            return (find(vet, ini, middle - 1, x))
+        } else {
+            return (find(vet, middle + 1, end, x))
+        }
+    }
+}
+
+var resultz = find(nums, 0, nums.length, 20)
+console.log(resultz)
