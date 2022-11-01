@@ -13,7 +13,7 @@
     //O úmtimo elemento aponta para o primeiro, chamado e cabeça, que geralmente é desenhado vazio.
 
 
-function LinkedList() {
+function Llist() {
 
     let Node = function(element) {
         this.element = element;
@@ -44,14 +44,13 @@ function LinkedList() {
         return length
     };
 
-    //a- Mostrar os elementos da lista
-
-    Dog.prototype.toString = function dogToString() {
-        return `${this.name}`;
-      };
 }
 
+//a- Mostrar os elementos da lista
 
+Llist.prototype.toString = function LlistToString() {
+    return `${this.element}`;
+};
 
 //b- Remover o primeiro elemento da lista
 
@@ -66,15 +65,15 @@ function LinkedList() {
 
 
 
-Llist = new LinkedList();
+Llist = new Llist();
 
 Llist.append(12);
 Llist.append(67);
 
-console.log(Llista.size());
+console.log(Llist.size());
 console.log(toString());
 
 Llist.append(15);
 
-console.log(Llista.size());
+console.log(Llist.size());
 console.log(Llist.toString());
