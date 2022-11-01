@@ -44,6 +44,17 @@ function Llist() {
         return length
     };
 
+    this.empty = function() {
+        return length == 0;
+    };
+
+    //b- Remover o primeiro elemento da lista
+    this.remove = function() {
+        let current = head;
+
+        if(this.empty())
+    }
+
 }
 
 //a- Mostrar os elementos da lista
@@ -52,7 +63,7 @@ Llist.prototype.toString = function LlistToString() {
     return `${this.element}`;
 };
 
-//b- Remover o primeiro elemento da lista
+
 
 //c- Inserir um elemento no inicio da lista
 
