@@ -53,9 +53,13 @@ function Llist() {
         let current = head;
 
         if(this.empty()) {
-
+            return -1
+        } else {
+            head = current.next
+            length--
+            return current.element
         }
-        
+
     }
 
 }
