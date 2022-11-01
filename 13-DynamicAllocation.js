@@ -52,7 +52,10 @@ function Llist() {
     this.remove = function() {
         let current = head;
 
-        if(this.empty())
+        if(this.empty()) {
+
+        }
+        
     }
 
 }
